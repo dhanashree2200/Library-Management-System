@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:title="Add Books"
+            android:icon="@drawable/add"
+            android:id="@+id/addBook"/>
+        <item
+            android:title="Update Books"
+            android:icon="@drawable/update"
+
+            android:id="@+id/updateBook"/>
+        <item
+            android:title="View Books"
+            android:icon="@drawable/view"
+            android:id="@+id/viewBook"/>
+        <item
+            android:title="Issued Books"
+            android:icon="@drawable/issued"
+            android:id="@+id/issuedBook"/>
+        <item
+            android:title="Return Books"
+            android:icon="@drawable/returnbooks"
+            android:id="@+id/returnBook"/>
+        <item
+            android:title="Issue Books"
+            android:icon="@drawable/issue"
+            android:id="@+id/issueBook"/>
+    </group>
+</menu>
